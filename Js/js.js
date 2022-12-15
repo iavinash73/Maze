@@ -42,26 +42,3 @@ if (content[i]=='4')
    c.classList.add("done");
    }
 }
-
-// $(document).ready(function(){
-//     $('.hover').popover({
-//         title:fetchdata,
-//         html:true,
-//         placement:right
-//     });
-//     function fetchdata(){
-//         var fetchdata="";
-//         var element=$(this);
-//         var id=element.attr("id");
-//         $ajax({
-//             url:"",
-//             method:'POST',
-//             async:false,
-//             data:{id:id},
-//             success:function(data){
-//                 fetch_data=data;
-//             }
-//         });
-//         return fetch_data;
-//     }
-// });
